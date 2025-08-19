@@ -1,0 +1,15 @@
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/AirAstana.FlightControl.Application.csproj.AssemblyReference.cache
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/AirAstana.FlightControl.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/AirAstana.FlightControl.Application.AssemblyInfoInputs.cache
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/AirAstana.FlightControl.Application.AssemblyInfo.cs
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/AirAstana.FlightControl.Application.csproj.CoreCompileInputs.cache
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/bin/Debug/net6.0/AirAstana.FlightControl.Application.deps.json
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/bin/Debug/net6.0/AirAstana.FlightControl.Application.dll
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/bin/Debug/net6.0/AirAstana.FlightControl.Application.pdb
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/bin/Debug/net6.0/AirAstana.FlightControl.Domain.dll
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/bin/Debug/net6.0/AirAstana.FlightControl.Domain.pdb
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/AirAstana.FlightControl.Application.csproj.CopyComplete
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/AirAstana.FlightControl.Application.dll
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/refint/AirAstana.FlightControl.Application.dll
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/AirAstana.FlightControl.Application.pdb
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/ref/AirAstana.FlightControl.Application.dll

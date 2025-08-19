@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{601CE072-D25A-426D-8B91-A4504579FD14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirAstana.FlightControl.Domain", "src\AirAstana.FlightControl.Domain\AirAstana.FlightControl.Domain.csproj", "{81E3F92C-AB89-4E7B-BE00-E501001A804C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirAstana.FlightControl.Application", "src\AirAstana.FlightControl.Application\AirAstana.FlightControl.Application.csproj", "{C7550362-7E41-416A-B142-70C349CF6C13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirAstana.FlightControl.Infrastructure", "src\AirAstana.FlightControl.Infrastructure\AirAstana.FlightControl.Infrastructure.csproj", "{C28479DA-1244-4D93-8349-EF56D824691B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirAstana.FlightControl.Api", "src\AirAstana.FlightControl.Api\AirAstana.FlightControl.Api.csproj", "{B78D09D6-8BC7-433B-A4F9-94BC3CA3B8F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3E7830E6-16A0-4F67-943C-D152B85A6F2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirAstana.FlightControl.Tests", "test\AirAstana.FlightControl.Tests\AirAstana.FlightControl.Tests.csproj", "{9BCF47EC-9AB1-4D13-8E85-CF45AC9B9CFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81E3F92C-AB89-4E7B-BE00-E501001A804C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81E3F92C-AB89-4E7B-BE00-E501001A804C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81E3F92C-AB89-4E7B-BE00-E501001A804C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81E3F92C-AB89-4E7B-BE00-E501001A804C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7550362-7E41-416A-B142-70C349CF6C13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7550362-7E41-416A-B142-70C349CF6C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7550362-7E41-416A-B142-70C349CF6C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7550362-7E41-416A-B142-70C349CF6C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28479DA-1244-4D93-8349-EF56D824691B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28479DA-1244-4D93-8349-EF56D824691B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28479DA-1244-4D93-8349-EF56D824691B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28479DA-1244-4D93-8349-EF56D824691B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B78D09D6-8BC7-433B-A4F9-94BC3CA3B8F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B78D09D6-8BC7-433B-A4F9-94BC3CA3B8F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B78D09D6-8BC7-433B-A4F9-94BC3CA3B8F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B78D09D6-8BC7-433B-A4F9-94BC3CA3B8F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BCF47EC-9AB1-4D13-8E85-CF45AC9B9CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BCF47EC-9AB1-4D13-8E85-CF45AC9B9CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BCF47EC-9AB1-4D13-8E85-CF45AC9B9CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BCF47EC-9AB1-4D13-8E85-CF45AC9B9CFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{81E3F92C-AB89-4E7B-BE00-E501001A804C} = {601CE072-D25A-426D-8B91-A4504579FD14}
+		{C7550362-7E41-416A-B142-70C349CF6C13} = {601CE072-D25A-426D-8B91-A4504579FD14}
+		{C28479DA-1244-4D93-8349-EF56D824691B} = {601CE072-D25A-426D-8B91-A4504579FD14}
+		{B78D09D6-8BC7-433B-A4F9-94BC3CA3B8F8} = {601CE072-D25A-426D-8B91-A4504579FD14}
+		{9BCF47EC-9AB1-4D13-8E85-CF45AC9B9CFB} = {3E7830E6-16A0-4F67-943C-D152B85A6F2D}
+	EndGlobalSection
+EndGlobal

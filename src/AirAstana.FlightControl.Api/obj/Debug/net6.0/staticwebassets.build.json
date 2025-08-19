@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ye9kFaqKlatRM60jzNBC3IeAwNZ96CLiZesUjCgajsw=",
+  "Source": "AirAstana.FlightControl.Api",
+  "BasePath": "_content/AirAstana.FlightControl.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
