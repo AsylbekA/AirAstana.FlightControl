@@ -18,3 +18,9 @@ obj/
 # Logs
 *.log
 *.cache
+
+# Test build folders
+test/*/bin/
+test/*/obj/
+test/*/*.dll
+test/*/*.pdb
