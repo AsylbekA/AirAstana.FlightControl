@@ -1,26 +1,18 @@
-# Visual Studio / .NET
-.vs/
+# Build folders
 bin/
 obj/
-Debug/
-Release/
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-*.ncb
-*.log
-*.dbmdl
-*.pdb
-*.mdb
-*.cache
-*.DS_Store
-*.idea/
 
-# Rider / JetBrains
-.idea/
-*.sln.iml
-bin/
-obj/
+# Debug / symbols
 *.pdb
 *.debug
+*.exe
+*.dll
+*.log
+*.cache
+
+# IDE / Editor
+*.user
+*.suo
+*.vscode/
+.idea/
+*.iml
