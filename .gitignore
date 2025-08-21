@@ -1,18 +1,20 @@
-# Build folders
+# Build output
 bin/
 obj/
 
-# Debug / symbols
+# Debug symbols / dlls
 *.pdb
-*.debug
-*.exe
 *.dll
-*.log
-*.cache
+*.exe
+*.debug
 
-# IDE / Editor
-*.user
-*.suo
-*.vscode/
+# IDE files
+*.DotSettings.user
+.vscode/
 .idea/
 *.iml
+*.suo
+
+# Logs
+*.log
+*.cache
