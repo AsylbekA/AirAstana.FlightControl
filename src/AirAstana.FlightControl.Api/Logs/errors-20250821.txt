@@ -2571,3 +2571,39 @@ SELECT EXISTS (
 2025-08-21 23:20:44.886 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 99.4992ms
 2025-08-21 23:20:45.025 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
 2025-08-21 23:20:45.095 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 70.5779ms
+2025-08-21 23:32:08.364 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 23:32:08.766 +05:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 23:32:08.875 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 23:32:08.909 +05:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 23:32:08.919 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 23:32:09.067 +05:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 23:32:09.175 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 23:32:09.311 +05:00 [INF] Now listening on: http://localhost:5000
+2025-08-21 23:32:09.311 +05:00 [INF] Now listening on: https://localhost:5001
+2025-08-21 23:32:09.313 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 23:32:09.313 +05:00 [INF] Hosting environment: Development
+2025-08-21 23:32:09.313 +05:00 [INF] Content root path: /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/
+2025-08-21 23:32:13.272 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 23:32:13.376 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 105.6147ms
+2025-08-21 23:32:13.522 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2025-08-21 23:32:13.593 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 70.8688ms

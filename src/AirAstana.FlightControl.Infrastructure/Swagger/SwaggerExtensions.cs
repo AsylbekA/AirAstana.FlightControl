@@ -21,8 +21,8 @@ public static class SwaggerExtensions
                 Contact = new OpenApiContact
                 {
                     Name = "Asylbek",
-                    Email = "asylbek@example.com",
-                    Url = new Uri("https://github.com/AsylbekA")
+                    Email = "anarbayasylbek@gmail.com",
+                    Url = new Uri("https://github.com/AsylbekA/AirAstana.FlightControl")
                 }
             });
 
