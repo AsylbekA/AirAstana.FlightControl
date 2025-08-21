@@ -637,7 +637,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/asylbekanarbaj/.dotnet/sdk/6.0.418/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.428/RuntimeIdentifierGraph.json"
       }
     }
   }

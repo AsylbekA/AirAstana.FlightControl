@@ -2,6 +2,7 @@ using AirAstana.FlightControl.Application;
 using AirAstana.FlightControl.Infrastructure;
 using AirAstana.FlightControl.Infrastructure.Logging;
 using AirAstana.FlightControl.Infrastructure.Persistence;
+using AirAstana.FlightControl.Infrastructure.Swagger;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -11,12 +12,12 @@ try
     builder.Host.UseSerilogLogging(builder.Configuration);
     builder.Services.AddApplicationOptions(builder.Configuration);
     builder.Services.AddInfrastructure(builder.Environment, builder.Configuration)
-        .AddPersistence(builder.Configuration);
+        .AddPersistence(builder.Configuration)
+        .AddSwaggerWithAuth();
     
     
     builder.Services.AddControllers();
     builder.Services.AddEndpointsApiExplorer();
-    builder.Services.AddSwaggerGen();
 
     var app = builder.Build();
 
@@ -29,7 +30,11 @@ try
         }
         
         app.UseSwagger();
-        app.UseSwaggerUI();
+        app.UseSwaggerUI(c =>
+        {
+            c.SwaggerEndpoint("/swagger/v1/swagger.json", "AirAstana Flight Control v1");
+            c.RoutePrefix = "swagger";
+        });
     }
     
     app.UseAuthentication();

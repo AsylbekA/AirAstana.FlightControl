@@ -1,13 +1,16 @@
 using System;
 using System.Reflection;
 using System.Text;
+using AirAstana.FlightControl.Application.Interfaces.DistributedCache;
 using AirAstana.FlightControl.Application.Interfaces.Services;
 using AirAstana.FlightControl.Domain.Persistence;
+using AirAstana.FlightControl.Infrastructure.Options;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using AirAstana.FlightControl.Infrastructure.Persistence;
 using AirAstana.FlightControl.Infrastructure.Services.Auth;
+using AirAstana.FlightControl.Infrastructure.Services.DistributedCache;
 using AirAstana.FlightControl.Infrastructure.Services.Flight;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -57,7 +60,7 @@ public static class ServiceCollectionExtensions
     private static IServiceCollection AddConfigurations(this IServiceCollection services,
         IConfiguration configuration)
     {
-        //services.Configure<RedisKeysOptions>(configuration.GetSection(RedisKeysOptions.SectionName));
+        services.Configure<RedisKeysOptions>(configuration.GetSection(RedisKeysOptions.SectionName));
       
         return services;
     }
@@ -82,6 +85,7 @@ public static class ServiceCollectionExtensions
         services.AddScoped<IAppDbContext, AppDbContextImp>();
         services.AddScoped<IJwtTokenService, JwtTokenService>();
         services.AddScoped<IFlightService, FlightService>();
+        services.AddScoped<IDistributedCacheService, DistributedCacheService>();
         if (environment.IsDevelopment())
         {
             services.AddScoped<IAuthService, AuthServiceTest>();
@@ -98,7 +102,7 @@ public static class ServiceCollectionExtensions
     {
         var connectionString = configuration.GetConnectionString("Redis");
 
-        //services.AddStackExchangeRedisCache(options => { options.Configuration = connectionString; });
+        services.AddStackExchangeRedisCache(options => { options.Configuration = connectionString; });
 
         return services;
     }

@@ -15,8 +15,23 @@ public class AuthController : ControllerBase
     {
         _authService = authService;
     }
-
+    
+    /// <summary>
+    /// Авторизация пользователя (получение JWT токена).
+    /// </summary>
+    /// <param name="request">Логин и пароль. 
+    /// Пример:
+    /// {
+    ///   "username": "Moderator",
+    ///   "password": "Moderator123!"
+    /// }
+    /// </param>
+    /// <returns>JWT токен + роль</returns>
+    /// <response code="200">Успешный вход</response>
+    /// <response code="401">Неверный логин или пароль</response>
     [HttpPost("login")]
+    [ProducesResponseType(typeof(LoginDto.LoginResponse), 200)]
+    [ProducesResponseType(401)]
     public async Task<ActionResult<LoginDto.LoginResponse>> Login([FromBody] LoginDto.LoginRequest request)
     {
         try

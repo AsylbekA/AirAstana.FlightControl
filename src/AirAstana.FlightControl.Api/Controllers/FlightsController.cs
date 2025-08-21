@@ -19,7 +19,7 @@ public class FlightsController : ControllerBase
     /// Получить список рейсов (с фильтрацией по Origin и Destination).
     /// </summary>
     [HttpGet]
-    [AllowAnonymous] // Доступен всем
+    [AllowAnonymous]
     public async Task<IActionResult> GetFlights([FromQuery] string? origin, [FromQuery] string? destination)
     {
         var result = await _mediator.Send(new GetFlightsQuery(origin, destination));
