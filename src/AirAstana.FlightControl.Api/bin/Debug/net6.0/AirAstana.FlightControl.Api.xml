@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AirAstana.FlightControl.Api</name>
+    </assembly>
+    <members>
+        <member name="M:AirAstana.FlightControl.Api.Controllers.AuthController.Login(AirAstana.FlightControl.Application.DTOs.Login.LoginDto.LoginRequest)">
+            <summary>
+            Авторизация пользователя (получение JWT токена)
+            </summary>
+            <param name="request">Логин и пароль. Пример: { "username": "Moderator", "password": "Moderator123!" }</param>
+            <returns>JWT токен</returns>
+            <response code="200">Успешный вход</response>
+            <response code="401">Неверный логин или пароль</response>
+        </member>
+        <member name="M:AirAstana.FlightControl.Api.Controllers.FlightsController.GetFlights(System.String,System.String)">
+            <summary>
+            Получить список рейсов (с фильтрацией по Origin и Destination).
+            </summary>
+            <param name="origin">Город отправления</param>
+            <param name="destination">Город назначения</param>
+            <response code="200">Список рейсов</response>
+        </member>
+        <member name="M:AirAstana.FlightControl.Api.Controllers.FlightsController.Create(AirAstana.FlightControl.Application.DTOs.Flight.FlightDto)">
+            <summary>
+            Создать новый рейс.
+            Только для Moderator.
+            </summary>
+            <param name="flightDto">Данные рейса</param>
+            <response code="201">Рейс успешно создан</response>
+            <response code="400">Неверные данные</response>
+            <response code="401">Требуется авторизация</response>
+        </member>
+        <member name="M:AirAstana.FlightControl.Api.Controllers.FlightsController.UpdateStatus(System.Int32,AirAstana.FlightControl.Application.Features.Flights.Commands.UpdateFlightStatusCommand)">
+            <summary>
+            Обновить статус рейса (InTime, Delayed, Cancelled).
+            Только для Moderator.
+            </summary>
+            <param name="id">ID рейса</param>
+            <param name="command">Новый статус</param>
+            <response code="200">Статус успешно обновлён</response>
+            <response code="400">Id в URL и теле не совпадают</response>
+            <response code="401">Требуется авторизация</response>
+            <response code="404">Рейс не найден</response>
+        </member>
+    </members>
+</doc>

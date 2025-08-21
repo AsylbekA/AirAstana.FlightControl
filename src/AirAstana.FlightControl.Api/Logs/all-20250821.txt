@@ -1390,3 +1390,1184 @@ SELECT EXISTS (
 2025-08-21 22:38:10.674 +05:00 [INF] Application started. Press Ctrl+C to shut down.
 2025-08-21 22:38:10.674 +05:00 [INF] Hosting environment: Development
 2025-08-21 22:38:10.674 +05:00 [INF] Content root path: /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/
+2025-08-21 22:39:30.139 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:39:30.497 +05:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:39:30.662 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:39:30.674 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:39:30.687 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:39:30.859 +05:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:39:31.012 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 22:39:31.161 +05:00 [INF] Now listening on: http://localhost:5000
+2025-08-21 22:39:31.161 +05:00 [INF] Now listening on: https://localhost:5001
+2025-08-21 22:39:31.163 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 22:39:31.163 +05:00 [INF] Hosting environment: Development
+2025-08-21 22:39:31.163 +05:00 [INF] Content root path: /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/
+2025-08-21 22:41:45.301 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:41:45.649 +05:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:41:45.736 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:41:45.768 +05:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:41:45.778 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:41:45.882 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:41:46.002 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 22:41:46.141 +05:00 [INF] Now listening on: http://localhost:5000
+2025-08-21 22:41:46.141 +05:00 [INF] Now listening on: https://localhost:5001
+2025-08-21 22:41:46.143 +05:00 [INF] Application started. Press2025-08-21 22:41:46.447 +05:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHER2025-08-21 22:41:52.211 +05:00 [INF] Request starting HTTP/1.1 GET http://127.0.0.1:5000/ - -
+2025-08-21 22:41:52.276 +05:00 [INF] HTTP GET / responded 404 in 0.9056 ms
+2025-08-21 22:41:52.282 +05:00 [INF] Request finished HTTP/1.1 GET http://127.0.0.1:5000/ - - - 404 0 - 72.0845ms
+ ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:41:46.607 +05:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:41:46.616 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:41:46.719 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:41:46.826 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 22:42:35.104 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:42:35.541 +05:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:42:35.701 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:42:35.741 +05:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:42:35.751 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:42:35.869 +05:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:44:00.960 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:44:01.269 +05:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:44:01.431 +05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:44:01.445 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:44:01.457 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:44:01.586 +05:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:46:17.329 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:46:17.803 +05:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:46:18.004 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:46:18.040 +05:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:46:18.050 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:46:18.205 +05:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:46:29.932 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:46:30.190 +05:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:46:30.221 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:46:30.232 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:46:30.248 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:46:30.387 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:46:30.454 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 22:46:30.542 +05:00 [INF] Now listening on: http://localhost:5000
+2025-08-21 22:46:30.542 +05:00 [INF] Now listening on: https://localhost:5001
+2025-08-21 22:46:30.544 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 22:46:30.544 +05:00 [INF] Hosting environment: Development
+2025-08-21 22:46:30.545 +05:00 [INF] Content root path: /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/
+2025-08-21 22:46:46.379 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/api/Flights - -
+2025-08-21 22:46:46.438 +05:00 [INF] Executing endpoint 'AirAstana.FlightControl.Api.Controllers.FlightsController.GetFlights (AirAstana.FlightControl.Api)'
+2025-08-21 22:46:46.454 +05:00 [INF] Route matched with {action = "GetFlights", controller = "Flights"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetFlights(System.String, System.String) on controller AirAstana.FlightControl.Api.Controllers.FlightsController (AirAstana.FlightControl.Api).
+2025-08-21 22:46:46.462 +05:00 [INF] Executing action method AirAstana.FlightControl.Api.Controllers.FlightsController.GetFlights (AirAstana.FlightControl.Api) - Validation state: "Valid"
+2025-08-21 22:46:46.519 +05:00 [INF] ----- Handling command GetFlightsQuery ({"Origin":null,"Destination":null})
+2025-08-21 22:46:46.528 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:46:46.696 +05:00 [INF] Fetching flights from DB
+2025-08-21 22:46:46.728 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT f."Id", f."Arrival", f."Departure", f."Destination", f."Origin", f."Status"
+FROM "Flights" AS f
+ORDER BY f."Arrival"
+2025-08-21 22:46:46.793 +05:00 [INF] ----- Command GetFlightsQuery handled
+2025-08-21 22:46:46.797 +05:00 [INF] Executed action method AirAstana.FlightControl.Api.Controllers.FlightsController.GetFlights (AirAstana.FlightControl.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 331.9182ms.
+2025-08-21 22:46:46.805 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[AirAstana.FlightControl.Application.DTOs.Flight.FlightDto, AirAstana.FlightControl.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-08-21 22:46:46.936 +05:00 [INF] Executed action AirAstana.FlightControl.Api.Controllers.FlightsController.GetFlights (AirAstana.FlightControl.Api) in 479.1715ms
+2025-08-21 22:46:46.937 +05:00 [INF] Executed endpoint 'AirAstana.FlightControl.Api.Controllers.FlightsController.GetFlights (AirAstana.FlightControl.Api)'
+2025-08-21 22:46:46.940 +05:00 [INF] HTTP GET /api/Flights responded 200 in 501.3836 ms
+2025-08-21 22:46:46.948 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/api/Flights - - - 200 - application/json;+charset=utf-8 572.1321ms
+2025-08-21 22:48:50.032 +05:00 [INF] Application is shutting down...
+2025-08-21 22:48:55.011 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:48:55.286 +05:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:48:55.495 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:48:55.526 +05:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:48:55.536 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:48:55.701 +05:00 [INF] Executed DbCommand (69ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:49:28.565 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:49:28.822 +05:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:49:28.853 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:49:28.865 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:49:28.880 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:49:29.012 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:50:37.633 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:50:37.987 +05:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:50:38.098 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:50:38.130 +05:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:50:38.140 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:50:38.288 +05:00 [INF] Executed DbCommand (51ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:50:38.392 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 22:50:38.425 +05:00 [FTL] Application startup exception
+System.InvalidOperationException: Scheme already exists: Bearer
+   at Microsoft.AspNetCore.Authentication.AuthenticationOptions.AddScheme(String name, Action`1 configureBuilder)
+   at Microsoft.AspNetCore.Authentication.AuthenticationBuilder.<>c__DisplayClass4_0`2.<AddSchemeHelper>b__0(AuthenticationOptions o)
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options, IDictionary`2 schemes)
+   at Microsoft.AspNetCore.Authentication.AuthenticationSchemeProvider..ctor(IOptions`1 options)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.<ConfigureApplication>b__27_0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2025-08-21 22:51:36.227 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:51:36.560 +05:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:51:36.794 +05:00 [INF] Executed DbCommand (8ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:51:36.811 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:51:36.823 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:51:36.974 +05:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:51:37.082 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 22:51:37.210 +05:00 [INF] Now listening on: http://localhost:5000
+2025-08-21 22:51:37.210 +05:00 [INF] Now listening on: https://localhost:5001
+2025-08-21 22:51:37.211 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 22:51:37.211 +05:00 [INF] Hosting environment: Development
+2025-08-21 22:51:37.211 +05:00 [INF] Content root path: /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/
+2025-08-21 22:51:40.037 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2025-08-21 22:51:40.042 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:51:40.075 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 500 - text/html;+charset=utf-8 39.8351ms
+2025-08-21 22:51:40.143 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:51:40.144 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:51:40.147 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 4.6820ms
+2025-08-21 22:51:42.278 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:51:42.278 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:51:42.279 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 1.4156ms
+2025-08-21 22:51:42.830 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:51:42.830 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:51:42.831 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 1.8142ms
+2025-08-21 22:51:42.954 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:51:42.954 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:51:42.955 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 0.9795ms
+2025-08-21 22:52:09.165 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:52:09.465 +05:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:52:09.714 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:52:09.747 +05:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:52:09.759 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:52:09.899 +05:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:52:09.998 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 22:52:10.117 +05:00 [INF] Now listening on: http://localhost:5000
+2025-08-21 22:52:10.117 +05:00 [INF] Now listening on: https://localhost:5001
+2025-08-21 22:52:10.118 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 22:52:10.118 +05:00 [INF] Hosting environment: Development
+2025-08-21 22:52:10.118 +05:00 [INF] Content root path: /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/
+2025-08-21 22:52:13.416 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:52:13.419 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:52:13.455 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 39.6193ms
+2025-08-21 22:52:13.532 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:52:13.532 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:52:13.534 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 1.6858ms
+2025-08-21 22:52:14.089 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:52:14.090 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:52:14.091 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 1.9526ms
+2025-08-21 22:52:14.127 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:52:14.128 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:52:14.128 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 1.4049ms
+2025-08-21 22:52:14.407 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:52:14.407 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:52:14.409 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 1.9649ms
+2025-08-21 22:52:14.488 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:52:14.489 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:52:14.489 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 0.8926ms
+2025-08-21 22:52:14.571 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:52:14.572 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:52:14.573 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 1.4309ms
+2025-08-21 22:52:14.634 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:52:14.635 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:52:14.636 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 1.2755ms
+2025-08-21 22:52:14.738 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:52:14.739 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:52:14.740 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 1.4552ms
+2025-08-21 22:52:14.820 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:52:14.821 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:52:14.821 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 0.8701ms
+2025-08-21 22:53:09.595 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:53:09.929 +05:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:53:10.043 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:53:10.167 +05:00 [INF] Executed DbCommand (117ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:53:10.179 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:53:10.327 +05:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:53:10.451 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 22:53:10.597 +05:00 [INF] Now listening on: http://localhost:5000
+2025-08-21 22:53:10.597 +05:00 [INF] Now listening on: https://localhost:5001
+2025-08-21 22:53:10.599 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 22:53:10.599 +05:00 [INF] Hosting environment: Development
+2025-08-21 22:53:10.599 +05:00 [INF] Content root path: /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/
+2025-08-21 22:53:16.986 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:53:16.990 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:17.020 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 36.4748ms
+2025-08-21 22:53:17.115 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:17.115 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:17.116 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 1.4200ms
+2025-08-21 22:53:17.793 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:53:17.794 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:17.797 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 3.7101ms
+2025-08-21 22:53:17.883 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:17.883 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:17.884 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 0.9748ms
+2025-08-21 22:53:17.937 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:53:17.937 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:17.938 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 1.3895ms
+2025-08-21 22:53:18.022 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:18.022 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:18.023 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 0.8637ms
+2025-08-21 22:53:18.086 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:53:18.086 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:18.087 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 1.2337ms
+2025-08-21 22:53:18.164 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:18.165 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:18.165 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 1.0141ms
+2025-08-21 22:53:18.252 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:53:18.253 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:18.254 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 1.2402ms
+2025-08-21 22:53:18.333 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:18.334 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:18.334 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 0.9568ms
+2025-08-21 22:53:18.606 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:53:18.607 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:18.608 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 1.9782ms
+2025-08-21 22:53:18.696 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:18.696 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:18.696 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 0.9625ms
+2025-08-21 22:53:18.751 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:53:18.751 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:18.752 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 1.5553ms
+2025-08-21 22:53:18.832 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:18.832 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:18.833 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 0.9458ms
+2025-08-21 22:53:18.895 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:53:18.896 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:18.897 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 2.0706ms
+2025-08-21 22:53:18.978 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:18.978 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:18.979 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 0.8514ms
+2025-08-21 22:53:19.045 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:53:19.046 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:19.047 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 1.5881ms
+2025-08-21 22:53:19.131 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:19.131 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:19.132 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 0.9644ms
+2025-08-21 22:53:19.760 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:53:19.763 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:19.767 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 6.5882ms
+2025-08-21 22:53:19.859 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:19.859 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:19.860 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 1.0076ms
+2025-08-21 22:53:20.443 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:20.443 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:20.444 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 1.0975ms
+2025-08-21 22:53:21.392 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2025-08-21 22:53:21.393 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:21.394 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 500 - text/html;+charset=utf-8 2.4620ms
+2025-08-21 22:53:21.511 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:21.511 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:21.512 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 1.6003ms
+2025-08-21 22:53:21.549 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2025-08-21 22:53:21.549 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:21.551 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 500 - text/html;+charset=utf-8 2.0375ms
+2025-08-21 22:53:21.641 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 22:53:21.642 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Swashbuckle.AspNetCore.Swagger.ISwaggerProvider' while attempting to Invoke middleware 'Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware'.
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 22:53:21.642 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 0.9379ms
+2025-08-21 22:53:47.779 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 22:53:48.139 +05:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:53:48.246 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 22:53:48.306 +05:00 [INF] Executed DbCommand (53ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 22:53:48.315 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 22:53:48.429 +05:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 22:53:48.526 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 22:53:48.638 +05:00 [INF] Now listening on: http://localhost:5000
+2025-08-21 22:53:48.638 +05:00 [INF] Now listening on: https://localhost:5001
+2025-08-21 22:53:48.639 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 22:53:48.640 +05:00 [INF] Hosting environment: Development
+2025-08-21 22:53:48.640 +05:00 [INF] Content root path: /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/
+2025-08-21 22:53:52.641 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/ - -
+2025-08-21 22:53:52.726 +05:00 [INF] HTTP GET / responded 404 in 0.9353 ms
+2025-08-21 22:53:52.731 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/ - - - 404 0 - 91.4694ms
+2025-08-21 22:53:54.516 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 22:53:54.615 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 98.1264ms
+2025-08-21 22:53:54.696 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2025-08-21 22:53:54.773 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 77.0017ms
+2025-08-21 23:10:30.924 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 23:10:31.348 +05:00 [INF] Executed DbCommand (24ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 23:10:31.402 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 23:10:31.413 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 23:10:31.422 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 23:10:31.546 +05:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 23:10:31.675 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 23:10:31.821 +05:00 [INF] Now listening on: http://localhost:5000
+2025-08-21 23:10:31.822 +05:00 [INF] Now listening on: https://localhost:5001
+2025-08-21 23:10:31.823 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 23:10:31.823 +05:00 [INF] Hosting environment: Development
+2025-08-21 23:10:31.824 +05:00 [INF] Content root path: /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/
+2025-08-21 23:10:36.738 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 23:10:36.834 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 97.8542ms
+2025-08-21 23:10:36.945 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2025-08-21 23:10:37.012 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 67.1144ms
+2025-08-21 23:13:35.125 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 23:13:35.447 +05:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 23:13:35.581 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 23:13:35.593 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 23:13:35.603 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 23:13:35.702 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 23:13:35.799 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 23:13:35.927 +05:00 [INF] Now listening on: http://localhost:5000
+2025-08-21 23:13:35.927 +05:00 [INF] Now listening on: https://localhost:5001
+2025-08-21 23:13:35.928 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 23:13:35.928 +05:00 [INF] Hosting environment: Development
+2025-08-21 23:13:35.928 +05:00 [INF] Content root path: /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/
+2025-08-21 23:13:41.500 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 23:13:54.423 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file '/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/AirAstana.FlightControl.Infrastructure.xml'.
+File name: '/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/AirAstana.FlightControl.Infrastructure.xml'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass37_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at AirAstana.FlightControl.Infrastructure.Swagger.SwaggerExtensions.<>c.<AddSwaggerWithAuth>b__0_0(SwaggerGenOptions c) in /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Infrastructure/Swagger/SwaggerExtensions.cs:line 55
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 23:13:54.518 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 13021.1758ms
+2025-08-21 23:13:54.615 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 23:13:56.913 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file '/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/AirAstana.FlightControl.Infrastructure.xml'.
+File name: '/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/AirAstana.FlightControl.Infrastructure.xml'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass37_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at AirAstana.FlightControl.Infrastructure.Swagger.SwaggerExtensions.<>c.<AddSwaggerWithAuth>b__0_0(SwaggerGenOptions c) in /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Infrastructure/Swagger/SwaggerExtensions.cs:line 55
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 23:13:56.916 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 2301.3616ms
+2025-08-21 23:16:34.357 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 23:16:34.693 +05:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 23:16:34.828 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 23:16:34.862 +05:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 23:16:34.872 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 23:16:34.997 +05:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 23:16:35.117 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 23:16:35.294 +05:00 [INF] Now listening on: http://localhost:5000
+2025-08-21 23:16:35.294 +05:00 [INF] Now listening on: https://localhost:5001
+2025-08-21 23:16:35.296 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 23:16:35.296 +05:00 [INF] Hosting environment: Development
+2025-08-21 23:16:35.296 +05:00 [INF] Content root path: /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/
+2025-08-21 23:16:41.692 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 23:17:27.946 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file '/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/AirAstana.FlightControl.Infrastructure.xml'.
+File name: '/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/AirAstana.FlightControl.Infrastructure.xml'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass37_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at AirAstana.FlightControl.Infrastructure.Swagger.SwaggerExtensions.<>c.<AddSwaggerWithAuth>b__0_0(SwaggerGenOptions c) in /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Infrastructure/Swagger/SwaggerExtensions.cs:line 55
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 23:17:28.080 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 500 - text/html;+charset=utf-8 46391.1011ms
+2025-08-21 23:17:28.130 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico - -
+2025-08-21 23:17:30.108 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.IO.FileNotFoundException: Could not find file '/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/AirAstana.FlightControl.Infrastructure.xml'.
+File name: '/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/AirAstana.FlightControl.Infrastructure.xml'
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize)
+   at System.Xml.XmlDownloadManager.GetStream(Uri uri, ICredentials credentials, IWebProxy proxy)
+   at System.Xml.XmlUrlResolver.GetEntity(Uri absoluteUri, String role, Type ofObjectToReturn)
+   at System.Xml.XmlTextReaderImpl.OpenUrl()
+   at System.Xml.XmlTextReaderImpl.Read()
+   at System.Xml.XPath.XPathDocument.LoadFromReader(XmlReader reader, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri, XmlSpace space)
+   at System.Xml.XPath.XPathDocument..ctor(String uri)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.<>c__DisplayClass37_0.<IncludeXmlComments>b__0()
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, Func`1 xmlDocFactory, Boolean includeControllerXmlComments)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenOptionsExtensions.IncludeXmlComments(SwaggerGenOptions swaggerGenOptions, String filePath, Boolean includeControllerXmlComments)
+   at AirAstana.FlightControl.Infrastructure.Swagger.SwaggerExtensions.<>c.<AddSwaggerWithAuth>b__0_0(SwaggerGenOptions c) in /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Infrastructure/Swagger/SwaggerExtensions.cs:line 55
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.UnnamedOptionsManager`1.get_Value()
+   at Swashbuckle.AspNetCore.SwaggerGen.ConfigureSwaggerGeneratorOptions..ctor(IOptions`1 swaggerGenOptionsAccessor, IServiceProvider serviceProvider, IWebHostEnvironment hostingEnv)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitIEnumerable(IEnumerableCallSite enumerableCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitNoCache(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(ServiceIdentifier serviceIdentifier)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.SwaggerGenServiceCollectionExtensions.<>c.<AddSwaggerGen>b__0_1(IServiceProvider s)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitFactory(FactoryCallSite factoryCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.GetService(IServiceProvider sp, Type type, Type middleware)
+   at lambda_method7(Closure , Object , HttpContext , IServiceProvider )
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_1.<UseMiddleware>b__2(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2025-08-21 23:17:30.115 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/favicon.ico - - - 500 - text/plain;+charset=utf-8 1984.7173ms
+2025-08-21 23:20:37.707 +05:00 [INF] Entity Framework Core 6.0.29 initialized 'AppDbContextImp' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.29+1cc46a0695f052ba0f1ade7046d577882d351f39' with options: None
+2025-08-21 23:20:38.037 +05:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 23:20:38.245 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2025-08-21 23:20:38.302 +05:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-08-21 23:20:38.314 +05:00 [INF] No migrations were applied. The database is already up to date.
+2025-08-21 23:20:38.439 +05:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1
+    FROM "Roles" AS r)
+2025-08-21 23:20:38.535 +05:00 [INF] User profile is available. Using '/Users/asylbekanarbaj/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-08-21 23:20:38.662 +05:00 [INF] Now listening on: http://localhost:5000
+2025-08-21 23:20:38.663 +05:00 [INF] Now listening on: https://localhost:5001
+2025-08-21 23:20:38.664 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-21 23:20:38.664 +05:00 [INF] Hosting environment: Development
+2025-08-21 23:20:38.664 +05:00 [INF] Content root path: /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/
+2025-08-21 23:20:44.789 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - -
+2025-08-21 23:20:44.886 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - - - 200 - text/html;charset=utf-8 99.4992ms
+2025-08-21 23:20:45.025 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - -
+2025-08-21 23:20:45.095 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 70.5779ms

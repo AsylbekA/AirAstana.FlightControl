@@ -1,6 +1,9 @@
 using System;
+using System.IO;
+using System.Reflection;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
+using Swashbuckle.AspNetCore.Filters;
 
 namespace AirAstana.FlightControl.Infrastructure.Swagger;
 
@@ -47,6 +50,7 @@ public static class SwaggerExtensions
                     Array.Empty<string>()
                 }
             });
+            c.ExampleFilters();
         });
 
         return services;

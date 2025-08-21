@@ -83,3 +83,9 @@
 /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/System.Runtime.CompilerServices.Unsafe.dll
 /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
 /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/Newtonsoft.Json.dll
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/Scrutor.dll
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/Swashbuckle.AspNetCore.Annotations.dll
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/Swashbuckle.AspNetCore.Filters.dll
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/Swashbuckle.AspNetCore.Filters.Abstractions.dll
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/bin/Debug/net6.0/AirAstana.FlightControl.Api.xml
+/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/obj/Debug/net6.0/AirAstana.FlightControl.Api.xml

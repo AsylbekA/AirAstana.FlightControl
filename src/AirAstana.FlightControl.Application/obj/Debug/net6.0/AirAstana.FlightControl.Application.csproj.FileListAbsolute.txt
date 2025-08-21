@@ -13,4 +13,3 @@
 /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/refint/AirAstana.FlightControl.Application.dll
 /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/AirAstana.FlightControl.Application.pdb
 /Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/obj/Debug/net6.0/ref/AirAstana.FlightControl.Application.dll
-/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Application/bin/Debug/net6.0/Microsoft.Extensions.Configuration.Abstractions.dll

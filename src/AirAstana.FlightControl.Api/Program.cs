@@ -4,6 +4,7 @@ using AirAstana.FlightControl.Infrastructure.Logging;
 using AirAstana.FlightControl.Infrastructure.Persistence;
 using AirAstana.FlightControl.Infrastructure.Swagger;
 using Serilog;
+using Swashbuckle.AspNetCore.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,7 +14,8 @@ try
     builder.Services.AddApplicationOptions(builder.Configuration);
     builder.Services.AddInfrastructure(builder.Environment, builder.Configuration)
         .AddPersistence(builder.Configuration)
-        .AddSwaggerWithAuth();
+        .AddSwaggerWithAuth().
+        AddSwaggerExamplesFromAssemblyOf<Program>();
     
     
     builder.Services.AddControllers();
@@ -33,10 +35,10 @@ try
         app.UseSwaggerUI(c =>
         {
             c.SwaggerEndpoint("/swagger/v1/swagger.json", "AirAstana Flight Control v1");
-            c.RoutePrefix = "swagger";
         });
     }
     
+    app.UseRouting();  
     app.UseAuthentication();
     app.UseAuthorization();
     app.UseSerilogRequestLogging();

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eEtWV+4bzNI=",
+  "dgSpecHash": "9kXfp1WeSaU=",
   "success": true,
   "projectFilePath": "/Users/asylbekanarbaj/Documents/projects/AirAstana.FlightControl/src/AirAstana.FlightControl.Api/AirAstana.FlightControl.Api.csproj",
   "expectedPackageFiles": [
@@ -47,6 +47,7 @@
     "/Users/asylbekanarbaj/.nuget/packages/npgsql/6.0.11/npgsql.6.0.11.nupkg.sha512",
     "/Users/asylbekanarbaj/.nuget/packages/npgsql.entityframeworkcore.postgresql/6.0.29/npgsql.entityframeworkcore.postgresql.6.0.29.nupkg.sha512",
     "/Users/asylbekanarbaj/.nuget/packages/pipelines.sockets.unofficial/2.2.8/pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "/Users/asylbekanarbaj/.nuget/packages/scrutor/3.3.0/scrutor.3.3.0.nupkg.sha512",
     "/Users/asylbekanarbaj/.nuget/packages/serilog/3.1.1/serilog.3.1.1.nupkg.sha512",
     "/Users/asylbekanarbaj/.nuget/packages/serilog.aspnetcore/8.0.1/serilog.aspnetcore.8.0.1.nupkg.sha512",
     "/Users/asylbekanarbaj/.nuget/packages/serilog.extensions.hosting/8.0.0/serilog.extensions.hosting.8.0.0.nupkg.sha512",
@@ -58,6 +59,9 @@
     "/Users/asylbekanarbaj/.nuget/packages/serilog.sinks.file/5.0.0/serilog.sinks.file.5.0.0.nupkg.sha512",
     "/Users/asylbekanarbaj/.nuget/packages/stackexchange.redis/2.8.24/stackexchange.redis.2.8.24.nupkg.sha512",
     "/Users/asylbekanarbaj/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "/Users/asylbekanarbaj/.nuget/packages/swashbuckle.aspnetcore.annotations/6.5.0/swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
+    "/Users/asylbekanarbaj/.nuget/packages/swashbuckle.aspnetcore.filters/8.0.3/swashbuckle.aspnetcore.filters.8.0.3.nupkg.sha512",
+    "/Users/asylbekanarbaj/.nuget/packages/swashbuckle.aspnetcore.filters.abstractions/8.0.3/swashbuckle.aspnetcore.filters.abstractions.8.0.3.nupkg.sha512",
     "/Users/asylbekanarbaj/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "/Users/asylbekanarbaj/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
     "/Users/asylbekanarbaj/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
