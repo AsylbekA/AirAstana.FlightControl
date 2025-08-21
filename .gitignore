@@ -1,0 +1,22 @@
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+Debug/
+Release/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ncb
+*.log
+*.dbmdl
+*.pdb
+*.mdb
+*.cache
+*.DS_Store
+*.idea/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
